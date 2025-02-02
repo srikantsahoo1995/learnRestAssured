@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E-Commerce API Tests" parallel="false">
+
+    <test name="Orders API Test">
+        <classes>
+            <class name="com.automation.api.cases.EcomE2ETest"/>
+        </classes>
+    </test>
+
+
+</suite>
